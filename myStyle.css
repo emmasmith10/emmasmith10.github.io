@@ -1,0 +1,76 @@
+
+       
+            body {
+                background: rgb(255, 200, 200);
+                color: rgb(80, 30, 45);
+                padding: 5px;
+                font-family: cursive;
+                border: dotted; 
+                border-width: thick;
+                border-radius: 25px;
+            }
+            header {
+                font-size: 2.0em;
+                font-weight: bolder;
+            }
+            #all-contents {
+                max-width: 800px;
+                margin: auto;
+            }
+    
+            /* navigation menu */
+            nav {
+                background: rgb(255, 255, 150);
+                margin: 0 auto;
+                display: flex;
+                padding: 1px;
+                border: dotted;
+                border-color: rgb(200, 238, 219);
+                border-width: thick;
+                border-radius: 25px;
+                
+                
+            }
+            nav header {
+                display: flex;
+                align-items: center;
+                color: rgb(80, 30, 45);
+                flex: 1;
+            }
+            nav ul {
+                list-style-image: none;
+            }
+            nav li {
+                display: inline-block;
+                padding: 0 10px;
+            }
+            nav a {
+                text-decoration: underlined;
+                color: rgb(80, 30, 45)
+            }
+    
+            /* main container area beneath menu */
+            main {
+                background: rgb(200, 238, 219);
+                display: flex;
+                border: dotted;
+                border-radius: 25px;
+                border-color: rgb(255, 255, 150);
+            }
+            .sidebar {
+                margin-right: 25px;
+                padding: 10px;
+            }
+            .sidebar img {
+                width: 250px;
+            }
+            .content {
+                flex: 1;
+                padding: 30px;
+            }
+            .interests header {
+                font-size: 1.25em;
+                font-style: underline;
+            }
+       
+   
